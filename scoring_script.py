@@ -20,18 +20,7 @@ import re
 answers = pd.read_csv('test_actuals.csv', index_col = 0, header=None, names=['Genres'] )
 
 
-# In[ ]:
-
-
-# create a list of all file names
-# starting with testlabels_ from the file
-
-
-# In[33]:
-
-
-
-path = '/Users/swilson5/Documents/DSC/ds-100719/nyc-ds-100719-lectures/week-11/NLP/classification-assessment/answers'
+path = os.curdir()
 extension = 'csv'
 os.chdir(path)
 files = glob.glob('*.{}'.format(extension))
