@@ -9,6 +9,6 @@ To make my predictions, I tokenized the words in the movies plots using sklearn'
 
 ## Result 
 
-![cm]('classification-assessment/images/cm.png')
+![cm](classification-assessment/images/cm.png)
 
 Our goal was to maximize the weighted F1 score for our predictions. Every class member produced their own model, and the results were compared on a previously unseen test set. My model performed well, placing 2nd in the class with a %63 weighted F1. 
