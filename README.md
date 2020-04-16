@@ -13,7 +13,7 @@ Since there was a large class imbalance, I used SMOTE to over-sample under repre
 
 ![cm](classification-assessment/images/cm.png)
 
-Our goal was to maximize the weighted F1 score for our predictions. Every class member produced their own model, and the results were compared on a previously unseen test set. My model performed well, placing 2nd in the class with a %63 weighted F1. 
+Our goal was to maximize the weighted F1 score for our predictions. Every class member produced their own model, and the results were compared on a previously unseen test set. My model performed well, placing 2nd in the class with a 63% weighted F1. 
 
 ## Next Steps
 
