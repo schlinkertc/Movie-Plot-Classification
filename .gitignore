@@ -131,3 +131,6 @@ dmypy.json
 # stored sklearn models
 saved_models/
 *.pkl
+
+#blog-post
+/blog_post.ipynb
