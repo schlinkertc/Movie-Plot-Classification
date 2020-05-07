@@ -133,4 +133,4 @@ saved_models/
 *.pkl
 
 #blog-post
-/blog_post.ipynb
+classification-assessment/blog_post.ipynb
